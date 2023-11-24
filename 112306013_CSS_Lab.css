@@ -1,0 +1,36 @@
+        /* Global styles for body */
+        body {
+            color: skyblue; /* text color */
+            background-color: black; /* background color */
+            font-family: cursive; /* font family for the entire body */
+             }
+
+        /* Styles for the heading element */
+        h1 {
+            font-family: 'Times New Roman', serif; /* font family for the heading element */
+             }
+        ul {
+            position:left;
+            top:5em;
+            left:1em;
+            width:10em;
+            list-style-type: square; /* remove default list styles */
+        }
+        
+
+       
+
+        /* Media Queries */
+        @media all {
+         
+         h1 {
+        color: blue; 
+            }
+        /* styles for all devices */
+            }
+
+        @media print {
+            h1 {
+            text-align: center; 
+         }
+         }
